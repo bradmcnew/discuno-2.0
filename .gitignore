@@ -1,0 +1,76 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# --- Environment files ---
+.env
+.env.*           # covers .env.local, .env.production, etc.
+!.env.example    # keep the sample env file in the repo
+
+# --- Logs ---
+logs
+*.log
+debug.log
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.swn
+*~
+*.tmp
+
+# --- VSCode ---
+.vscode/*
+!.vscode/settings.json  # allow project-specific settings if you want
+
+# --- JetBrains (WebStorm, etc) ---
+.idea/
+
+# --- Supabase ---
+.supabase/
+supabase/.temp/
+
+# --- Prisma ---
+prisma/dev.db
+prisma/.env
+prisma/migrations/
+.prisma/
+
+# --- tRPC OpenAPI generator ---
+openapi.json
+
+# --- Optional: Testing/CI ---
+jest.config.js
+coverage/
+*.lcov
+
+# --- Optional: MacOS/Linux/Windows system files ---
+*.pid
+*.seed
+*.pid.lock
+
+# --- Optional: misc build output ---
+*.out
+*.exe
+*.dll
+*.pyc
+
+# --- Optional: next/image cache ---
+.next/cache/
+
+# --- Optional: Turborepo ---
+turbo/
